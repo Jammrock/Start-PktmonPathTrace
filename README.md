@@ -1,5 +1,5 @@
 # Start-PktmonPathTrace
-Creates an optimized pktmon trace for a VM's network data path. This is done by limiting the components traced and using a MAC address filter for each VM NIC of the target VM.
+Pktmon can collect an absurd amount of data on a busy host, if you're not careful. This script automates the process of filtering pktmon to the interesting parts for a single VM's network data path.
 
 This is run on the Hyper-V or Azure Local host directly!
 
